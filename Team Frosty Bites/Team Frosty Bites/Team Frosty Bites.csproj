@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E2CABE7-F84E-4669-BE34-9A4EBE7DB804}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Team_Frosty_Bites</RootNamespace>
+    <AssemblyName>Team Frosty Bites</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADD CATALOG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD CATALOG.Designer.cs">
+      <DependentUpon>ADD CATALOG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD PRE-ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD PRE-ORDER.Designer.cs">
+      <DependentUpon>ADD PRE-ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD TEAM MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD TEAM MANAGEMENT.Designer.cs">
+      <DependentUpon>ADD TEAM MANAGEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMER.Designer.cs">
+      <DependentUpon>CUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDIT CATALOG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDIT CATALOG.Designer.cs">
+      <DependentUpon>EDIT CATALOG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDIT PRE-ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDIT PRE-ORDER.Designer.cs">
+      <DependentUpon>EDIT PRE-ORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDIT TEAM MANAGEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDIT TEAM MANAGEMENT.Designer.cs">
+      <DependentUpon>EDIT TEAM MANAGEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOMEPAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOMEPAGE.Designer.cs">
+      <DependentUpon>HOMEPAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN PAGE.Designer.cs">
+      <DependentUpon>LOGIN PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MENU CATALOG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU CATALOG.Designer.cs">
+      <DependentUpon>MENU CATALOG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyMonthCalander.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REPORT BATCH PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT BATCH PAGE.Designer.cs">
+      <DependentUpon>REPORT BATCH PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT MONTH PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT MONTH PAGE.Designer.cs">
+      <DependentUpon>REPORT MONTH PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REPORT YEAR PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT YEAR PAGE.Designer.cs">
+      <DependentUpon>REPORT YEAR PAGE.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ADD CATALOG.resx">
+      <DependentUpon>ADD CATALOG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD PRE-ORDER.resx">
+      <DependentUpon>ADD PRE-ORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD TEAM MANAGEMENT.resx">
+      <DependentUpon>ADD TEAM MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMER.resx">
+      <DependentUpon>CUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT CATALOG.resx">
+      <DependentUpon>EDIT CATALOG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT PRE-ORDER.resx">
+      <DependentUpon>EDIT PRE-ORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDIT TEAM MANAGEMENT.resx">
+      <DependentUpon>EDIT TEAM MANAGEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOMEPAGE.resx">
+      <DependentUpon>HOMEPAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN PAGE.resx">
+      <DependentUpon>LOGIN PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU CATALOG.resx">
+      <DependentUpon>MENU CATALOG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="REPORT BATCH PAGE.resx">
+      <DependentUpon>REPORT BATCH PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT MONTH PAGE.resx">
+      <DependentUpon>REPORT MONTH PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORT YEAR PAGE.resx">
+      <DependentUpon>REPORT YEAR PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Logo Frosty Bites.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Log in Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Homepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Catalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Pre-Order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Team Management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Next Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Previous Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Add Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Edit Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\PP Customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Background Edit Catalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Upload Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Back Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Done Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Search Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Background Team MAnagement.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

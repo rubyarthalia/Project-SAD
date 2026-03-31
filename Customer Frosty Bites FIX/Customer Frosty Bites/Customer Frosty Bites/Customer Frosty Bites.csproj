@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F72A5A90-ACDA-45F4-8C29-BF1D86703B1F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Customer_Frosty_Bites</RootNamespace>
+    <AssemblyName>Customer Frosty Bites</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CATALOG PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CATALOG PAGE.Designer.cs">
+      <DependentUpon>CATALOG PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HISTORY PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HISTORY PAGE.Designer.cs">
+      <DependentUpon>HISTORY PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORDER PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ORDER PAGE.Designer.cs">
+      <DependentUpon>ORDER PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SIGNUP PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIGNUP PAGE.Designer.cs">
+      <DependentUpon>SIGNUP PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN PAGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN PAGE.Designer.cs">
+      <DependentUpon>LOGIN PAGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CATALOG PAGE.resx">
+      <DependentUpon>CATALOG PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HISTORY PAGE.resx">
+      <DependentUpon>HISTORY PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN PAGE.resx">
+      <DependentUpon>LOGIN PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ORDER PAGE.resx">
+      <DependentUpon>ORDER PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIGNUP PAGE.resx">
+      <DependentUpon>SIGNUP PAGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Next Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Logo Frosty Bites.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sign Up Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Log in Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Previous Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Catalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar History.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Sidebar Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\PP Customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Minus Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Plus Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Previous Button Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Next Button Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Next Button Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Done Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Cancel Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Qris.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

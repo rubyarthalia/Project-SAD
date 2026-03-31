@@ -1,0 +1,35 @@
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\Team Frosty Bites.exe.config
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\Team Frosty Bites.exe
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\Team Frosty Bites.pdb
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.csproj.AssemblyReference.cache
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Properties.Resources.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.csproj.GenerateResource.cache
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.csproj.CoreCompileInputs.cache
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.exe
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.pdb
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Login_Page.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.csproj.SuggestedBindingRedirects.cache
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.exe.config
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Home_Page.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\MySql.Data.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\Google.Protobuf.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\ZstdNet.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\System.Buffers.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\bin\Debug\MySql.Data.xml
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team Frosty Bites.csproj.CopyComplete
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.MENU_CATALOG.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Edit_Catalog.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Add_Catalog.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Customer.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Report_Batch_Page.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Report_Month_Page.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Report_Year_Page.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.EDIT_TEAM_MANAGEMENT.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Add_Preorder.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Edit_Preorder.resources
+C:\Users\amand\source\repos\Team Frosty Bites\Team Frosty Bites\obj\Debug\Team_Frosty_Bites.Add_Team_Management.resources
